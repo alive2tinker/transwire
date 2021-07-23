@@ -11,7 +11,7 @@ The package will automatically register a service provider.
 
 Next, you need to publish the WebSocket configuration file:
 ```
-php artisan vendor:publish --provider="alive2tinker\TransWire\TransWireServiceProvider"
+php artisan vendor:publish --provider="alive2tinker\TransWire\Providers\TransWireServiceProvider"
 ```
 This is the default content of the config file that will be published as `config/transwire.php`
 
