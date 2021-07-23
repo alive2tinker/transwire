@@ -1,0 +1,34 @@
+{
+    "name": "alive2tinker/transwire",
+    "description": "Translation package that searches your project for translatable strings and list them in {locale}.json file ready to be translated",
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "alive2tinker\\TransWire\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "alive2tinker\\TransWire\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "alive2tinker\\TransWire\\Providers\\TransWireServiceProvider"
+            ]
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Abdulmalik Alsufayran",
+            "email": "alsufiran@gmail.com"
+        }
+    ]
+}
